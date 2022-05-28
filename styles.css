@@ -81,7 +81,7 @@ header {
 .welcome-section-button {
     font-size: 1.5rem;
     padding: 12px;
-    border: 2px solid black; /* Color for variable  */
+    border: 2px solid white; /* Color for variable  */
     display: inline-block;
     background-color: rgb(149, 200, 220); /* Color for variable */
     border-radius: 10px;
@@ -105,6 +105,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 30px 0;
 }
 
 .about-me-statics-container {
@@ -114,10 +115,67 @@ header {
     column-gap: 50px;
 }
 
+.about-me-title-container {
+    padding-bottom: 30px;
+}
+
+.about-me-img {
+    max-width: 280px;
+}
+
+.about-me-img img {
+    width: 100%;
+}
+
 .about-me-text {
     max-width: 30%;
 }
 
 .about-me-title {
+    font-size: 2.5rem;
+}
+
+.about-me-subtitle {
+    font-size: 2rem;
+}
+
+.about-me-p {
+    font-size: 1.5rem;
+}
+
+.about-me-statics {
+    padding:30px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-me-static1 span, .about-me-static2 span{
+    display: block;
+}
+
+.about-me-statics-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.about-me-statics-text {
     font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.about-me-button {
+    
+    font-size: 1.5rem;
+    padding: 12px;
+    border: 2px solid black; /* Color for variable  */
+    display: inline-block;
+    background-color: rgb(149, 200, 220); /* Color for variable */
+    border-radius: 10px;
+    color: black;
+}
+
+.about-me-button i {
+    margin-left: 1.5rem;
+    color: black;
 }
