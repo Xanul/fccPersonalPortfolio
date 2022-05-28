@@ -226,3 +226,42 @@ header {
     background-color: rgb(55, 54, 54);
     border-radius: 5px;
 }
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.contact-text-container h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    
+}
+
+.contact-text-container p {
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.contact-links a {
+    color: black;
+}
+
+.contact-links a i {
+    font-size: 30px;
+    margin: 0 3rem;
+}
+
+@media (max-width: 718px) {
+    .headerLogo {
+        font-size: 1.8rem;
+    }
+
+    .nav-list a {
+        font-size: 1.5rem;
+    }
+}
