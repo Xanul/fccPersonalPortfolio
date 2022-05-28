@@ -1,46 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b5b313b3df.js"
+      crossorigin="anonymous"
+    ></script>
     <title>FCC Personal Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="headerLogo">
-            <a href="#welcome-section">Rodrigo Rivas</a>
-        </div>
-        <nav id="navbar">
-            <ul class="nav-list">
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+      <div class="headerLogo">
+        <a href="#welcome-section">Rodrigo Rivas</a>
+      </div>
+      <nav id="navbar">
+        <ul class="nav-list">
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section id="welcome-section">
-            <h1 class="welcome-section-title"></h1>
-            <p class="welcome-section-subtitle"></p>
-        </section>
-        <section id="about-me">
-
-        </section>
-        <section id="projects">
-            <div class="projects-container">
-                <a href="#" class="project-tile">Test</a>
-            </div>
-        </section>
-        <section id="contact">
-            <div class="contact-links">
-                <a href="http://github.com/xanul" id="profile-link" target="_blank">Github</a>
-            </div>
-        </section>
+      <section id="welcome-section">
+        <div class="welcome-section-text">
+          <h1 class="welcome-section-title">Hi, Im Rodrigo Rivas</h1>
+          <p class="welcome-section-subtitle">Developer</p>
+          <p class="welcome-section-p">
+            I am a technology enthusiast in the journey to become a professional
+            full stack developer
+          </p>
+          <p class="welcome-section-p"></p>
+          <a href="#contact" class="welcome-section-button"
+            >Contact Me!<i class="fa-solid fa-message"></i
+          ></a>
+        </div>
+        <div class="welcome-section-img">
+          <img
+            src="https://xanul.github.io/myPortfolio/assets/img/New%20Project2.png"
+            alt=""
+            width="200"
+          />
+        </div>
+      </section>
+      <section id="about-me">
+        <div class="about-me-title-container">
+          <h1 class="about-me-title">About Me</h1>
+          <p class="about-me-subtitle">My Introduction</p>
+        </div>
+        <div class="about-me-statics-container">
+            <div class="about-me-img">
+                <img src="https://www.nicepng.com/png/full/380-3801129_glider-offers-a-clean-and-elegant-way-to.png" alt="programmingTechnologies" width="200" />
+              </div>
+              <div class="about-me-text">
+                <p class="about-me-p">
+                  I have always considered myself passionate about technology, I began
+                  to study it formally about 2 and a half years ago and since then it
+                  has been an integral part of my life. I like to learn and develop
+                  every day, from useful and new tools and libraries to frameworks and
+                  new languages.
+                </p>
+                <div class="about-me-statics">
+                    <div class="about-me-static1">
+                      <span>02+</span>
+                      <span>Years<br> Experience</span>
+                    </div>
+                    <div class="about-me-static2">
+                      <span>05+</span>
+                      <span>Completed<br>Projects</span>
+                    </div>
+                </div>
+                <a href="#">
+                    Download CV<i class="fa-solid fa-arrow-down"></i>
+                </a>
+              </div>
+        </div>
+      </section>
+      <section id="projects">
+        <div class="projects-container">
+          <a href="#" class="project-tile"></a>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="contact-links">
+          <a
+            href="http://github.com/xanul"
+            id="profile-link"
+            target="_blank"
+          ></a>
+        </div>
+      </section>
     </main>
-</body>
+  </body>
 </html>

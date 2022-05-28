@@ -12,6 +12,7 @@ html {
 
 a {
     text-decoration: none;
+    color: white
 }
 
 header {
@@ -25,9 +26,9 @@ header {
 }
 
 .headerLogo {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     display: block;
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 .headerLogo a{
@@ -41,7 +42,82 @@ header {
 
 .nav-list a {
     display: block;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     padding: 2rem;
     color: white;
+}
+
+#welcome-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    column-gap: 50px;
+    background-color: #252728;
+    color: white;
+}
+
+.welcome-section-text {
+    max-width: 30%;
+}
+
+.welcome-section-text  * {
+    margin-top: 8px;
+}
+
+.welcome-section-title {
+    font-size: 3.5rem;
+}
+
+.welcome-section-subtitle {
+    font-size: 2.5rem;
+}
+
+.welcome-section-p {
+    font-size: 1.5rem;
+}
+
+.welcome-section-button {
+    font-size: 1.5rem;
+    padding: 12px;
+    border: 2px solid black; /* Color for variable  */
+    display: inline-block;
+    background-color: rgb(149, 200, 220); /* Color for variable */
+    border-radius: 10px;
+}
+
+.welcome-section-button i {
+    margin-left: 1.5rem;
+    color: white; /* Color for variable */
+}
+
+.welcome-section-img {
+    max-width: 200px;
+}
+
+.welcome-section-img img{
+    width: 100%;
+}
+
+#about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-statics-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.about-me-text {
+    max-width: 30%;
+}
+
+.about-me-title {
+    font-size: 1.6rem;
 }
